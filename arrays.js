@@ -23,7 +23,7 @@ function destructivelyAddElementToEndOfArray(chocolateBars, lollipop) {
 function accessElementInArray(chocolateBars, index) {
   return chocolateBars[index]; //access array[element-of-index-3]
 }
-/*
+
 function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
   chocolateBars.shift(); //no index specify = grab first element in array.
   return chocolateBars;
@@ -42,4 +42,3 @@ function destructivelyRemoveElementFromEndOfArray(chocolateBars) {
 function removeElementFromEndOfArray(chocolateBars) {
   return chocolateBars.slice(0, chocolateBars.length - 1);
 }
-*/
