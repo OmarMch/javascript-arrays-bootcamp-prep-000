@@ -2,7 +2,7 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 var lollipop = 'foo'
 // I wish they'd tell us to alter array-test.js.
-function addElementToBeginningOfArray(chocolateBars, lollipop) {
+/*function addElementToBeginningOfArray(chocolateBars, lollipop) {
     return ['foo', ...chocolateBars]; // element..., array(does not alter)
 }
 
@@ -42,3 +42,4 @@ function destructivelyRemoveElementFromEndOfArray(chocolateBars) {
 function removeElementFromEndOfArray(chocolateBars) {
   return chocolateBars.slice(0, chocolateBars.length - 1);
 }
+*/
