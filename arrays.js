@@ -19,11 +19,11 @@ function destructivelyAddElementToEndOfArray(chocolateBars, lollipop) {
   chocolateBars.push('foo'); //array-->method-->(element-to-be-added-at-end)
   return chocolateBars;
 }
-/*
+
 function accessElementInArray(chocolateBars, 3) {
   chocolateBars[3]; //access array[element-of-index-3]
 }
-
+/*
 function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
   chocolateBars.shift(); //no index specify = grab first element in array.
   return chocolateBars;
